@@ -17,7 +17,8 @@
     "@strapi/provider-email-sendgrid": "^4.14.4",
     "@strapi/provider-upload-cloudinary": "^4.14.4",
     "@strapi/strapi": "4.14.4",
-    "pg": "8.8.0"
+    "pg": "8.8.0",
+    "strapi-stripe": "^3.4.1"
   },
   "author": {
     "name": "A Strapi developer"
@@ -26,7 +27,7 @@
     "uuid": "c75f272a-7520-4e3c-a0fc-ae530413b7d7"
   },
   "engines": {
-    "node": ">=16.0.0 <=20.x.x",
+    "node": ">=16.0.0 <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
